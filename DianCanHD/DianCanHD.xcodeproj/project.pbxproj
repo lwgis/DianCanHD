@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1839EE891561F71A00C79EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE881561F71A00C79EBE /* UIKit.framework */; };
+		1839EE8B1561F71A00C79EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE8A1561F71A00C79EBE /* Foundation.framework */; };
+		1839EE8D1561F71A00C79EBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE8C1561F71A00C79EBE /* CoreGraphics.framework */; };
+		1839EE931561F71A00C79EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1839EE911561F71A00C79EBE /* InfoPlist.strings */; };
+		1839EE951561F71A00C79EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839EE941561F71A00C79EBE /* main.m */; };
+		18CA69071561FA6000CD84B1 /* ZTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA69061561FA6000CD84B1 /* ZTViewController.xib */; };
+		18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */; };
+		18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA690B1561FA7100CD84B1 /* ZTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1839EE841561F71A00C79EBE /* DianCanHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianCanHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1839EE881561F71A00C79EBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1839EE8A1561F71A00C79EBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1839EE8C1561F71A00C79EBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1839EE901561F71A00C79EBE /* DianCanHD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DianCanHD-Info.plist"; sourceTree = "<group>"; };
+		1839EE921561F71A00C79EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1839EE941561F71A00C79EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1839EE961561F71A00C79EBE /* DianCanHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DianCanHD-Prefix.pch"; sourceTree = "<group>"; };
+		18CA69061561FA6000CD84B1 /* ZTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZTViewController.xib; path = UI/ZTViewController.xib; sourceTree = "<group>"; };
+		18CA69081561FA7100CD84B1 /* ZTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTAppDelegate.h; path = Classes/ZTAppDelegate.h; sourceTree = "<group>"; };
+		18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTAppDelegate.m; path = Classes/ZTAppDelegate.m; sourceTree = "<group>"; };
+		18CA690A1561FA7100CD84B1 /* ZTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTViewController.h; path = Classes/ZTViewController.h; sourceTree = "<group>"; };
+		18CA690B1561FA7100CD84B1 /* ZTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTViewController.m; path = Classes/ZTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1839EE811561F71A00C79EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839EE891561F71A00C79EBE /* UIKit.framework in Frameworks */,
+				1839EE8B1561F71A00C79EBE /* Foundation.framework in Frameworks */,
+				1839EE8D1561F71A00C79EBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1839EE791561F71A00C79EBE = {
+			isa = PBXGroup;
+			children = (
+				1839EE8E1561F71A00C79EBE /* DianCanHD */,
+				1839EE871561F71A00C79EBE /* Frameworks */,
+				1839EE851561F71A00C79EBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1839EE851561F71A00C79EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1839EE841561F71A00C79EBE /* DianCanHD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1839EE871561F71A00C79EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1839EE881561F71A00C79EBE /* UIKit.framework */,
+				1839EE8A1561F71A00C79EBE /* Foundation.framework */,
+				1839EE8C1561F71A00C79EBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1839EE8E1561F71A00C79EBE /* DianCanHD */ = {
+			isa = PBXGroup;
+			children = (
+				1839EEA71561F97300C79EBE /* Model */,
+				1839EEA61561F96500C79EBE /* UI */,
+				1839EEA51561F95700C79EBE /* Classes */,
+				1839EE8F1561F71A00C79EBE /* Supporting Files */,
+			);
+			path = DianCanHD;
+			sourceTree = "<group>";
+		};
+		1839EE8F1561F71A00C79EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1839EE901561F71A00C79EBE /* DianCanHD-Info.plist */,
+				1839EE911561F71A00C79EBE /* InfoPlist.strings */,
+				1839EE941561F71A00C79EBE /* main.m */,
+				1839EE961561F71A00C79EBE /* DianCanHD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1839EEA51561F95700C79EBE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18CA69081561FA7100CD84B1 /* ZTAppDelegate.h */,
+				18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */,
+				18CA690A1561FA7100CD84B1 /* ZTViewController.h */,
+				18CA690B1561FA7100CD84B1 /* ZTViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1839EEA61561F96500C79EBE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				18CA69061561FA6000CD84B1 /* ZTViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1839EEA71561F97300C79EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1839EE831561F71A00C79EBE /* DianCanHD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1839EEA21561F71A00C79EBE /* Build configuration list for PBXNativeTarget "DianCanHD" */;
+			buildPhases = (
+				1839EE801561F71A00C79EBE /* Sources */,
+				1839EE811561F71A00C79EBE /* Frameworks */,
+				1839EE821561F71A00C79EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DianCanHD;
+			productName = DianCanHD;
+			productReference = 1839EE841561F71A00C79EBE /* DianCanHD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1839EE7B1561F71A00C79EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1839EE7E1561F71A00C79EBE /* Build configuration list for PBXProject "DianCanHD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1839EE791561F71A00C79EBE;
+			productRefGroup = 1839EE851561F71A00C79EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1839EE831561F71A00C79EBE /* DianCanHD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1839EE821561F71A00C79EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839EE931561F71A00C79EBE /* InfoPlist.strings in Resources */,
+				18CA69071561FA6000CD84B1 /* ZTViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1839EE801561F71A00C79EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1839EE951561F71A00C79EBE /* main.m in Sources */,
+				18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */,
+				18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1839EE911561F71A00C79EBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1839EE921561F71A00C79EBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1839EEA01561F71A00C79EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1839EEA11561F71A00C79EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1839EEA31561F71A00C79EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DianCanHD/DianCanHD-Prefix.pch";
+				INFOPLIST_FILE = "DianCanHD/DianCanHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1839EEA41561F71A00C79EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DianCanHD/DianCanHD-Prefix.pch";
+				INFOPLIST_FILE = "DianCanHD/DianCanHD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1839EE7E1561F71A00C79EBE /* Build configuration list for PBXProject "DianCanHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839EEA01561F71A00C79EBE /* Debug */,
+				1839EEA11561F71A00C79EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1839EEA21561F71A00C79EBE /* Build configuration list for PBXNativeTarget "DianCanHD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1839EEA31561F71A00C79EBE /* Debug */,
+				1839EEA41561F71A00C79EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1839EE7B1561F71A00C79EBE /* Project object */;
+}
