@@ -12,10 +12,10 @@
 		1839EE8D1561F71A00C79EBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE8C1561F71A00C79EBE /* CoreGraphics.framework */; };
 		1839EE931561F71A00C79EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1839EE911561F71A00C79EBE /* InfoPlist.strings */; };
 		1839EE951561F71A00C79EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839EE941561F71A00C79EBE /* main.m */; };
+		18C3B6B61562079D00049434 /* testCoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */; };
 		18CA69071561FA6000CD84B1 /* ZTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA69061561FA6000CD84B1 /* ZTViewController.xib */; };
 		18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */; };
 		18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA690B1561FA7100CD84B1 /* ZTViewController.m */; };
-		18CA690F1561FDE800CD84B1 /* testCoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 18CA690E1561FDE800CD84B1 /* testCoreData.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		1839EE921561F71A00C79EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1839EE941561F71A00C79EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1839EE961561F71A00C79EBE /* DianCanHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DianCanHD-Prefix.pch"; sourceTree = "<group>"; };
+		18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = testCoreData.xcdatamodel; path = Model/testCoreData.xcdatamodel; sourceTree = "<group>"; };
 		18CA69061561FA6000CD84B1 /* ZTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZTViewController.xib; path = UI/ZTViewController.xib; sourceTree = "<group>"; };
 		18CA69081561FA7100CD84B1 /* ZTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTAppDelegate.h; path = Classes/ZTAppDelegate.h; sourceTree = "<group>"; };
 		18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTAppDelegate.m; path = Classes/ZTAppDelegate.m; sourceTree = "<group>"; };
 		18CA690A1561FA7100CD84B1 /* ZTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTViewController.h; path = Classes/ZTViewController.h; sourceTree = "<group>"; };
 		18CA690B1561FA7100CD84B1 /* ZTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTViewController.m; path = Classes/ZTViewController.m; sourceTree = "<group>"; };
-		18CA690E1561FDE800CD84B1 /* testCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testCoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 		1839EEA71561F97300C79EBE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18CA690E1561FDE800CD84B1 /* testCoreData.xcdatamodel */,
+				18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 				1839EE951561F71A00C79EBE /* main.m in Sources */,
 				18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */,
 				18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */,
-				18CA690F1561FDE800CD84B1 /* testCoreData.xcdatamodel in Sources */,
+				18C3B6B61562079D00049434 /* testCoreData.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
