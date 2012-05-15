@@ -16,6 +16,33 @@
 		18CA69071561FA6000CD84B1 /* ZTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA69061561FA6000CD84B1 /* ZTViewController.xib */; };
 		18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */; };
 		18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA690B1561FA7100CD84B1 /* ZTViewController.m */; };
+		A4A21789156296270079D896 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21770156296270079D896 /* Category.m */; };
+		A4A2178A156296270079D896 /* Category+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21772156296270079D896 /* Category+Search.m */; };
+		A4A2178B156296270079D896 /* CategoryImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21774156296270079D896 /* CategoryImage.m */; };
+		A4A2178C156296270079D896 /* Desk.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21776156296270079D896 /* Desk.m */; };
+		A4A2178D156296270079D896 /* Desk+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21778156296270079D896 /* Desk+Search.m */; };
+		A4A2178E156296270079D896 /* DeskType.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2177A156296270079D896 /* DeskType.m */; };
+		A4A2178F156296270079D896 /* DeskType+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2177C156296270079D896 /* DeskType+Search.m */; };
+		A4A21790156296270079D896 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A2177E156296270079D896 /* Recipe.m */; };
+		A4A21791156296270079D896 /* Recipe+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21780156296270079D896 /* Recipe+Search.m */; };
+		A4A21792156296270079D896 /* RecipeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21782156296270079D896 /* RecipeImage.m */; };
+		A4A21793156296270079D896 /* Recipes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A4A21783156296270079D896 /* Recipes.xcdatamodeld */; };
+		A4A21794156296270079D896 /* UpdateRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21786156296270079D896 /* UpdateRecord.m */; };
+		A4A21795156296270079D896 /* UpdateRecord+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21788156296270079D896 /* UpdateRecord+Search.m */; };
+		A4A217BC156296A00079D896 /* RestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217BB156296A00079D896 /* RestEngine.m */; };
+		A4A217BF1562970F0079D896 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A217BD1562970F0079D896 /* CFNetwork.framework */; };
+		A4A217C01562970F0079D896 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A217BE1562970F0079D896 /* CoreData.framework */; };
+		A4A217FC1562980E0079D896 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217E61562980E0079D896 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A217FD1562980E0079D896 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217E81562980E0079D896 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A217FE1562980E0079D896 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EA1562980E0079D896 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A217FF1562980E0079D896 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EC1562980E0079D896 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218001562980E0079D896 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EE1562980E0079D896 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218011562980E0079D896 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F01562980E0079D896 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218021562980E0079D896 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F31562980E0079D896 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218031562980E0079D896 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F51562980E0079D896 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218041562980E0079D896 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F71562980E0079D896 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218051562980E0079D896 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F91562980E0079D896 /* SDURLCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A218061562980E0079D896 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217FB1562980E0079D896 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +60,58 @@
 		18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTAppDelegate.m; path = Classes/ZTAppDelegate.m; sourceTree = "<group>"; };
 		18CA690A1561FA7100CD84B1 /* ZTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTViewController.h; path = Classes/ZTViewController.h; sourceTree = "<group>"; };
 		18CA690B1561FA7100CD84B1 /* ZTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTViewController.m; path = Classes/ZTViewController.m; sourceTree = "<group>"; };
+		A4A2176F156296270079D896 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Category.h; path = Model/Category.h; sourceTree = "<group>"; };
+		A4A21770156296270079D896 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Category.m; path = Model/Category.m; sourceTree = "<group>"; };
+		A4A21771156296270079D896 /* Category+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Category+Search.h"; path = "Model/Category+Search.h"; sourceTree = "<group>"; };
+		A4A21772156296270079D896 /* Category+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Category+Search.m"; path = "Model/Category+Search.m"; sourceTree = "<group>"; };
+		A4A21773156296270079D896 /* CategoryImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CategoryImage.h; path = Model/CategoryImage.h; sourceTree = "<group>"; };
+		A4A21774156296270079D896 /* CategoryImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CategoryImage.m; path = Model/CategoryImage.m; sourceTree = "<group>"; };
+		A4A21775156296270079D896 /* Desk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Desk.h; path = Model/Desk.h; sourceTree = "<group>"; };
+		A4A21776156296270079D896 /* Desk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Desk.m; path = Model/Desk.m; sourceTree = "<group>"; };
+		A4A21777156296270079D896 /* Desk+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Desk+Search.h"; path = "Model/Desk+Search.h"; sourceTree = "<group>"; };
+		A4A21778156296270079D896 /* Desk+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Desk+Search.m"; path = "Model/Desk+Search.m"; sourceTree = "<group>"; };
+		A4A21779156296270079D896 /* DeskType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeskType.h; path = Model/DeskType.h; sourceTree = "<group>"; };
+		A4A2177A156296270079D896 /* DeskType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeskType.m; path = Model/DeskType.m; sourceTree = "<group>"; };
+		A4A2177B156296270079D896 /* DeskType+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DeskType+Search.h"; path = "Model/DeskType+Search.h"; sourceTree = "<group>"; };
+		A4A2177C156296270079D896 /* DeskType+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "DeskType+Search.m"; path = "Model/DeskType+Search.m"; sourceTree = "<group>"; };
+		A4A2177D156296270079D896 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipe.h; path = Model/Recipe.h; sourceTree = "<group>"; };
+		A4A2177E156296270079D896 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipe.m; path = Model/Recipe.m; sourceTree = "<group>"; };
+		A4A2177F156296270079D896 /* Recipe+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Recipe+Search.h"; path = "Model/Recipe+Search.h"; sourceTree = "<group>"; };
+		A4A21780156296270079D896 /* Recipe+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Recipe+Search.m"; path = "Model/Recipe+Search.m"; sourceTree = "<group>"; };
+		A4A21781156296270079D896 /* RecipeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipeImage.h; path = Model/RecipeImage.h; sourceTree = "<group>"; };
+		A4A21782156296270079D896 /* RecipeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipeImage.m; path = Model/RecipeImage.m; sourceTree = "<group>"; };
+		A4A21784156296270079D896 /* Recipes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recipes.xcdatamodel; sourceTree = "<group>"; };
+		A4A21785156296270079D896 /* UpdateRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateRecord.h; path = Model/UpdateRecord.h; sourceTree = "<group>"; };
+		A4A21786156296270079D896 /* UpdateRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateRecord.m; path = Model/UpdateRecord.m; sourceTree = "<group>"; };
+		A4A21787156296270079D896 /* UpdateRecord+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UpdateRecord+Search.h"; path = "Model/UpdateRecord+Search.h"; sourceTree = "<group>"; };
+		A4A21788156296270079D896 /* UpdateRecord+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UpdateRecord+Search.m"; path = "Model/UpdateRecord+Search.m"; sourceTree = "<group>"; };
+		A4A217BA156296A00079D896 /* RestEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestEngine.h; path = Classes/RestEngine.h; sourceTree = "<group>"; };
+		A4A217BB156296A00079D896 /* RestEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RestEngine.m; path = Classes/RestEngine.m; sourceTree = "<group>"; };
+		A4A217BD1562970F0079D896 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A4A217BE1562970F0079D896 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A4A217E51562980E0079D896 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPClient.h; path = AFNetworking/AFHTTPClient.h; sourceTree = "<group>"; };
+		A4A217E61562980E0079D896 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPClient.m; path = AFNetworking/AFHTTPClient.m; sourceTree = "<group>"; };
+		A4A217E71562980E0079D896 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A4A217E81562980E0079D896 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A4A217E91562980E0079D896 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFImageRequestOperation.h; path = AFNetworking/AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A4A217EA1562980E0079D896 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFImageRequestOperation.m; path = AFNetworking/AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A4A217EB1562980E0079D896 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONRequestOperation.h; path = AFNetworking/AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A4A217EC1562980E0079D896 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONRequestOperation.m; path = AFNetworking/AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A4A217ED1562980E0079D896 /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFJSONUtilities.h; path = AFNetworking/AFJSONUtilities.h; sourceTree = "<group>"; };
+		A4A217EE1562980E0079D896 /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFJSONUtilities.m; path = AFNetworking/AFJSONUtilities.m; sourceTree = "<group>"; };
+		A4A217EF1562980E0079D896 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = AFNetworking/AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A4A217F01562980E0079D896 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = AFNetworking/AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A4A217F11562980E0079D896 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		A4A217F21562980E0079D896 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFPropertyListRequestOperation.h; path = AFNetworking/AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A4A217F31562980E0079D896 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFPropertyListRequestOperation.m; path = AFNetworking/AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A4A217F41562980E0079D896 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A4A217F51562980E0079D896 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A4A217F61562980E0079D896 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFXMLRequestOperation.h; path = AFNetworking/AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A4A217F71562980E0079D896 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFXMLRequestOperation.m; path = AFNetworking/AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A4A217F81562980E0079D896 /* SDURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDURLCache.h; path = AFNetworking/SDURLCache.h; sourceTree = "<group>"; };
+		A4A217F91562980E0079D896 /* SDURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDURLCache.m; path = AFNetworking/SDURLCache.m; sourceTree = "<group>"; };
+		A4A217FA1562980E0079D896 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A4A217FB1562980E0079D896 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A217BF1562970F0079D896 /* CFNetwork.framework in Frameworks */,
+				A4A217C01562970F0079D896 /* CoreData.framework in Frameworks */,
 				1839EE891561F71A00C79EBE /* UIKit.framework in Frameworks */,
 				1839EE8B1561F71A00C79EBE /* Foundation.framework in Frameworks */,
 				1839EE8D1561F71A00C79EBE /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +150,8 @@
 		1839EE871561F71A00C79EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4A217BD1562970F0079D896 /* CFNetwork.framework */,
+				A4A217BE1562970F0079D896 /* CoreData.framework */,
 				1839EE881561F71A00C79EBE /* UIKit.framework */,
 				1839EE8A1561F71A00C79EBE /* Foundation.framework */,
 				1839EE8C1561F71A00C79EBE /* CoreGraphics.framework */,
@@ -79,6 +162,7 @@
 		1839EE8E1561F71A00C79EBE /* DianCanHD */ = {
 			isa = PBXGroup;
 			children = (
+				A4A217C1156297B80079D896 /* AFNetworking */,
 				1839EEA71561F97300C79EBE /* Model */,
 				1839EEA61561F96500C79EBE /* UI */,
 				1839EEA51561F95700C79EBE /* Classes */,
@@ -101,6 +185,8 @@
 		1839EEA51561F95700C79EBE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A4A217BA156296A00079D896 /* RestEngine.h */,
+				A4A217BB156296A00079D896 /* RestEngine.m */,
 				18CA69081561FA7100CD84B1 /* ZTAppDelegate.h */,
 				18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */,
 				18CA690A1561FA7100CD84B1 /* ZTViewController.h */,
@@ -121,8 +207,63 @@
 			isa = PBXGroup;
 			children = (
 				18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */,
+				A4A21783156296270079D896 /* Recipes.xcdatamodeld */,
+				A4A2176F156296270079D896 /* Category.h */,
+				A4A21770156296270079D896 /* Category.m */,
+				A4A21771156296270079D896 /* Category+Search.h */,
+				A4A21772156296270079D896 /* Category+Search.m */,
+				A4A21773156296270079D896 /* CategoryImage.h */,
+				A4A21774156296270079D896 /* CategoryImage.m */,
+				A4A21775156296270079D896 /* Desk.h */,
+				A4A21776156296270079D896 /* Desk.m */,
+				A4A21777156296270079D896 /* Desk+Search.h */,
+				A4A21778156296270079D896 /* Desk+Search.m */,
+				A4A21779156296270079D896 /* DeskType.h */,
+				A4A2177A156296270079D896 /* DeskType.m */,
+				A4A2177B156296270079D896 /* DeskType+Search.h */,
+				A4A2177C156296270079D896 /* DeskType+Search.m */,
+				A4A2177D156296270079D896 /* Recipe.h */,
+				A4A2177E156296270079D896 /* Recipe.m */,
+				A4A2177F156296270079D896 /* Recipe+Search.h */,
+				A4A21780156296270079D896 /* Recipe+Search.m */,
+				A4A21781156296270079D896 /* RecipeImage.h */,
+				A4A21782156296270079D896 /* RecipeImage.m */,
+				A4A21785156296270079D896 /* UpdateRecord.h */,
+				A4A21786156296270079D896 /* UpdateRecord.m */,
+				A4A21787156296270079D896 /* UpdateRecord+Search.h */,
+				A4A21788156296270079D896 /* UpdateRecord+Search.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A4A217C1156297B80079D896 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A4A217E51562980E0079D896 /* AFHTTPClient.h */,
+				A4A217E61562980E0079D896 /* AFHTTPClient.m */,
+				A4A217E71562980E0079D896 /* AFHTTPRequestOperation.h */,
+				A4A217E81562980E0079D896 /* AFHTTPRequestOperation.m */,
+				A4A217E91562980E0079D896 /* AFImageRequestOperation.h */,
+				A4A217EA1562980E0079D896 /* AFImageRequestOperation.m */,
+				A4A217EB1562980E0079D896 /* AFJSONRequestOperation.h */,
+				A4A217EC1562980E0079D896 /* AFJSONRequestOperation.m */,
+				A4A217ED1562980E0079D896 /* AFJSONUtilities.h */,
+				A4A217EE1562980E0079D896 /* AFJSONUtilities.m */,
+				A4A217EF1562980E0079D896 /* AFNetworkActivityIndicatorManager.h */,
+				A4A217F01562980E0079D896 /* AFNetworkActivityIndicatorManager.m */,
+				A4A217F11562980E0079D896 /* AFNetworking.h */,
+				A4A217F21562980E0079D896 /* AFPropertyListRequestOperation.h */,
+				A4A217F31562980E0079D896 /* AFPropertyListRequestOperation.m */,
+				A4A217F41562980E0079D896 /* AFURLConnectionOperation.h */,
+				A4A217F51562980E0079D896 /* AFURLConnectionOperation.m */,
+				A4A217F61562980E0079D896 /* AFXMLRequestOperation.h */,
+				A4A217F71562980E0079D896 /* AFXMLRequestOperation.m */,
+				A4A217F81562980E0079D896 /* SDURLCache.h */,
+				A4A217F91562980E0079D896 /* SDURLCache.m */,
+				A4A217FA1562980E0079D896 /* UIImageView+AFNetworking.h */,
+				A4A217FB1562980E0079D896 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +332,31 @@
 				18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */,
 				18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */,
 				18C3B6B61562079D00049434 /* testCoreData.xcdatamodel in Sources */,
+				A4A21789156296270079D896 /* Category.m in Sources */,
+				A4A2178A156296270079D896 /* Category+Search.m in Sources */,
+				A4A2178B156296270079D896 /* CategoryImage.m in Sources */,
+				A4A2178C156296270079D896 /* Desk.m in Sources */,
+				A4A2178D156296270079D896 /* Desk+Search.m in Sources */,
+				A4A2178E156296270079D896 /* DeskType.m in Sources */,
+				A4A2178F156296270079D896 /* DeskType+Search.m in Sources */,
+				A4A21790156296270079D896 /* Recipe.m in Sources */,
+				A4A21791156296270079D896 /* Recipe+Search.m in Sources */,
+				A4A21792156296270079D896 /* RecipeImage.m in Sources */,
+				A4A21793156296270079D896 /* Recipes.xcdatamodeld in Sources */,
+				A4A21794156296270079D896 /* UpdateRecord.m in Sources */,
+				A4A21795156296270079D896 /* UpdateRecord+Search.m in Sources */,
+				A4A217BC156296A00079D896 /* RestEngine.m in Sources */,
+				A4A217FC1562980E0079D896 /* AFHTTPClient.m in Sources */,
+				A4A217FD1562980E0079D896 /* AFHTTPRequestOperation.m in Sources */,
+				A4A217FE1562980E0079D896 /* AFImageRequestOperation.m in Sources */,
+				A4A217FF1562980E0079D896 /* AFJSONRequestOperation.m in Sources */,
+				A4A218001562980E0079D896 /* AFJSONUtilities.m in Sources */,
+				A4A218011562980E0079D896 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A4A218021562980E0079D896 /* AFPropertyListRequestOperation.m in Sources */,
+				A4A218031562980E0079D896 /* AFURLConnectionOperation.m in Sources */,
+				A4A218041562980E0079D896 /* AFXMLRequestOperation.m in Sources */,
+				A4A218051562980E0079D896 /* SDURLCache.m in Sources */,
+				A4A218061562980E0079D896 /* UIImageView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +465,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A4A21783156296270079D896 /* Recipes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A4A21784156296270079D896 /* Recipes.xcdatamodel */,
+			);
+			currentVersion = A4A21784156296270079D896 /* Recipes.xcdatamodel */;
+			name = Recipes.xcdatamodeld;
+			path = Model/Recipes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1839EE7B1561F71A00C79EBE /* Project object */;
 }

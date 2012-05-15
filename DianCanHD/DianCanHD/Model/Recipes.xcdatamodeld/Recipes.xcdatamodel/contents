@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="cDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="image" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryImage" inverseName="category" inverseEntity="CategoryImage" syncable="YES"/>
+        <relationship name="recipeList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Recipe" inverseName="category" inverseEntity="Recipe" syncable="YES"/>
+    </entity>
+    <entity name="CategoryImage" representedClassName="CategoryImage" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="image" inverseEntity="Category" syncable="YES"/>
+    </entity>
+    <entity name="Desk" representedClassName="Desk" syncable="YES">
+        <attribute name="dCapacity" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="dName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deskType" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="DeskType" inverseName="deskList" inverseEntity="DeskType" syncable="YES"/>
+    </entity>
+    <entity name="DeskType" syncable="YES">
+        <attribute name="tID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="tName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deskList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Desk" inverseName="deskType" inverseEntity="Desk" syncable="YES"/>
+    </entity>
+    <entity name="Recipe" representedClassName="Recipe" syncable="YES">
+        <attribute name="cID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rPrice" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="category" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="recipeList" inverseEntity="Category" syncable="YES"/>
+        <relationship name="image" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="RecipeImage" inverseName="recipe" inverseEntity="RecipeImage" syncable="YES"/>
+        <fetchedProperty name="fetchedCategory" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Category" predicateString="cID == $FETCH_SOURCE.cID"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="RecipeImage" representedClassName="RecipeImage" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="recipe" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Recipe" inverseName="image" inverseEntity="Recipe" syncable="YES"/>
+    </entity>
+    <entity name="UpdateRecord" representedClassName="UpdateRecord" syncable="YES">
+        <attribute name="updateTime" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Category" positionX="349" positionY="192" width="128" height="45"/>
+        <element name="CategoryImage" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Desk" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Recipe" positionX="160" positionY="192" width="128" height="194"/>
+        <element name="RecipeImage" positionX="-65" positionY="207" width="128" height="75"/>
+        <element name="UpdateRecord" positionX="241" positionY="-0" width="128" height="60"/>
+        <element name="DeskType" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
