@@ -22,18 +22,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    NSLog(@"%f",[[UIScreen mainScreen] bounds].origin.y);
     // Override point for customization after application launch.
-    self.viewController = [[ZTViewController alloc] initWithNibName:@"ZTViewController" bundle:nil];
+    self.viewController = [[[ZTViewController alloc] initWithNibName:@"ZTViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    
-    RestEngine *engine = [[RestEngine alloc] initWithManagedObjectContext:self.managedObjectContext];
-    [engine getAllDomainOnCompletion:^(NSDictionary *dictionary) {
-        NSLog(@"success");
-    } onError:^(NSError *error) {
-        NSLog(@"error");
-    }];
+//    RestEngine *engine = [[RestEngine alloc] initWithManagedObjectContext:self.managedObjectContext];
+//    [engine getAllDomainOnCompletion:^(NSDictionary *dictionary) {
+//        NSLog(@"success");
+//    } onError:^(NSError *error) {
+//        NSLog(@"error");
+//    }];
     
     return YES;
 }

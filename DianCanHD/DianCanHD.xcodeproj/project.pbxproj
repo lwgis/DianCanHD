@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181334791562B0F00044DD1A /* MainTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181334781562B0F00044DD1A /* MainTitleView.m */; };
 		1839EE891561F71A00C79EBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE881561F71A00C79EBE /* UIKit.framework */; };
 		1839EE8B1561F71A00C79EBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE8A1561F71A00C79EBE /* Foundation.framework */; };
 		1839EE8D1561F71A00C79EBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1839EE8C1561F71A00C79EBE /* CoreGraphics.framework */; };
 		1839EE931561F71A00C79EBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1839EE911561F71A00C79EBE /* InfoPlist.strings */; };
 		1839EE951561F71A00C79EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1839EE941561F71A00C79EBE /* main.m */; };
-		18C3B6B61562079D00049434 /* testCoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */; };
+		18BC272B15667E8100EC9311 /* photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18BC272A15667E8100EC9311 /* photo.jpeg */; };
+		18BC272F1566B89600EC9311 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC272E1566B89600EC9311 /* CellView.m */; };
+		18C06AA6156A8921003C91AE /* RecipePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C06AA5156A8921003C91AE /* RecipePageView.m */; };
 		18CA69071561FA6000CD84B1 /* ZTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CA69061561FA6000CD84B1 /* ZTViewController.xib */; };
 		18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */; };
 		18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA690B1561FA7100CD84B1 /* ZTViewController.m */; };
+		18EA1BD21564DCFE003E445A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EA1BD11564DCFE003E445A /* QuartzCore.framework */; };
 		A4A21789156296270079D896 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21770156296270079D896 /* Category.m */; };
 		A4A2178A156296270079D896 /* Category+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21772156296270079D896 /* Category+Search.m */; };
 		A4A2178B156296270079D896 /* CategoryImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A21774156296270079D896 /* CategoryImage.m */; };
@@ -32,20 +36,22 @@
 		A4A217BC156296A00079D896 /* RestEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217BB156296A00079D896 /* RestEngine.m */; };
 		A4A217BF1562970F0079D896 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A217BD1562970F0079D896 /* CFNetwork.framework */; };
 		A4A217C01562970F0079D896 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A217BE1562970F0079D896 /* CoreData.framework */; };
-		A4A217FC1562980E0079D896 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217E61562980E0079D896 /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A217FD1562980E0079D896 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217E81562980E0079D896 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A217FE1562980E0079D896 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EA1562980E0079D896 /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A217FF1562980E0079D896 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EC1562980E0079D896 /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218001562980E0079D896 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EE1562980E0079D896 /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218011562980E0079D896 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F01562980E0079D896 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218021562980E0079D896 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F31562980E0079D896 /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218031562980E0079D896 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F51562980E0079D896 /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218041562980E0079D896 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F71562980E0079D896 /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218051562980E0079D896 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F91562980E0079D896 /* SDURLCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		A4A218061562980E0079D896 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217FB1562980E0079D896 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A4A217FC1562980E0079D896 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217E61562980E0079D896 /* AFHTTPClient.m */; };
+		A4A217FD1562980E0079D896 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217E81562980E0079D896 /* AFHTTPRequestOperation.m */; };
+		A4A217FE1562980E0079D896 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EA1562980E0079D896 /* AFImageRequestOperation.m */; };
+		A4A217FF1562980E0079D896 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EC1562980E0079D896 /* AFJSONRequestOperation.m */; };
+		A4A218001562980E0079D896 /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217EE1562980E0079D896 /* AFJSONUtilities.m */; };
+		A4A218011562980E0079D896 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F01562980E0079D896 /* AFNetworkActivityIndicatorManager.m */; };
+		A4A218021562980E0079D896 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F31562980E0079D896 /* AFPropertyListRequestOperation.m */; };
+		A4A218031562980E0079D896 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F51562980E0079D896 /* AFURLConnectionOperation.m */; };
+		A4A218041562980E0079D896 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F71562980E0079D896 /* AFXMLRequestOperation.m */; };
+		A4A218051562980E0079D896 /* SDURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217F91562980E0079D896 /* SDURLCache.m */; };
+		A4A218061562980E0079D896 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A217FB1562980E0079D896 /* UIImageView+AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181334771562B0F00044DD1A /* MainTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTitleView.h; path = Classes/MainView/MainTitleView.h; sourceTree = "<group>"; };
+		181334781562B0F00044DD1A /* MainTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTitleView.m; path = Classes/MainView/MainTitleView.m; sourceTree = "<group>"; };
 		1839EE841561F71A00C79EBE /* DianCanHD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianCanHD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1839EE881561F71A00C79EBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1839EE8A1561F71A00C79EBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -54,12 +60,17 @@
 		1839EE921561F71A00C79EBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1839EE941561F71A00C79EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1839EE961561F71A00C79EBE /* DianCanHD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DianCanHD-Prefix.pch"; sourceTree = "<group>"; };
-		18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = testCoreData.xcdatamodel; path = Model/testCoreData.xcdatamodel; sourceTree = "<group>"; };
+		18BC272A15667E8100EC9311 /* photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpeg; sourceTree = "<group>"; };
+		18BC272D1566B89600EC9311 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellView.h; path = Classes/MainView/CellView.h; sourceTree = "<group>"; };
+		18BC272E1566B89600EC9311 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellView.m; path = Classes/MainView/CellView.m; sourceTree = "<group>"; };
+		18C06AA4156A8921003C91AE /* RecipePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecipePageView.h; path = Classes/MainView/RecipePageView.h; sourceTree = "<group>"; };
+		18C06AA5156A8921003C91AE /* RecipePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecipePageView.m; path = Classes/MainView/RecipePageView.m; sourceTree = "<group>"; };
 		18CA69061561FA6000CD84B1 /* ZTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZTViewController.xib; path = UI/ZTViewController.xib; sourceTree = "<group>"; };
 		18CA69081561FA7100CD84B1 /* ZTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTAppDelegate.h; path = Classes/ZTAppDelegate.h; sourceTree = "<group>"; };
 		18CA69091561FA7100CD84B1 /* ZTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTAppDelegate.m; path = Classes/ZTAppDelegate.m; sourceTree = "<group>"; };
 		18CA690A1561FA7100CD84B1 /* ZTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZTViewController.h; path = Classes/ZTViewController.h; sourceTree = "<group>"; };
 		18CA690B1561FA7100CD84B1 /* ZTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZTViewController.m; path = Classes/ZTViewController.m; sourceTree = "<group>"; };
+		18EA1BD11564DCFE003E445A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A4A2176F156296270079D896 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Category.h; path = Model/Category.h; sourceTree = "<group>"; };
 		A4A21770156296270079D896 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Category.m; path = Model/Category.m; sourceTree = "<group>"; };
 		A4A21771156296270079D896 /* Category+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Category+Search.h"; path = "Model/Category+Search.h"; sourceTree = "<group>"; };
@@ -119,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EA1BD21564DCFE003E445A /* QuartzCore.framework in Frameworks */,
 				A4A217BF1562970F0079D896 /* CFNetwork.framework in Frameworks */,
 				A4A217C01562970F0079D896 /* CoreData.framework in Frameworks */,
 				1839EE891561F71A00C79EBE /* UIKit.framework in Frameworks */,
@@ -130,9 +142,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181334761562B0660044DD1A /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				181334771562B0F00044DD1A /* MainTitleView.h */,
+				181334781562B0F00044DD1A /* MainTitleView.m */,
+				18BC272D1566B89600EC9311 /* CellView.h */,
+				18BC272E1566B89600EC9311 /* CellView.m */,
+				18C06AA4156A8921003C91AE /* RecipePageView.h */,
+				18C06AA5156A8921003C91AE /* RecipePageView.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
 		1839EE791561F71A00C79EBE = {
 			isa = PBXGroup;
 			children = (
+				18EA1BD11564DCFE003E445A /* QuartzCore.framework */,
 				1839EE8E1561F71A00C79EBE /* DianCanHD */,
 				1839EE871561F71A00C79EBE /* Frameworks */,
 				1839EE851561F71A00C79EBE /* Products */,
@@ -185,6 +211,7 @@
 		1839EEA51561F95700C79EBE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				181334761562B0660044DD1A /* MainView */,
 				A4A217BA156296A00079D896 /* RestEngine.h */,
 				A4A217BB156296A00079D896 /* RestEngine.m */,
 				18CA69081561FA7100CD84B1 /* ZTAppDelegate.h */,
@@ -198,6 +225,7 @@
 		1839EEA61561F96500C79EBE /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				18BC272A15667E8100EC9311 /* photo.jpeg */,
 				18CA69061561FA6000CD84B1 /* ZTViewController.xib */,
 			);
 			name = UI;
@@ -206,7 +234,6 @@
 		1839EEA71561F97300C79EBE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				18C3B6B51562079D00049434 /* testCoreData.xcdatamodel */,
 				A4A21783156296270079D896 /* Recipes.xcdatamodeld */,
 				A4A2176F156296270079D896 /* Category.h */,
 				A4A21770156296270079D896 /* Category.m */,
@@ -276,6 +303,7 @@
 				1839EE801561F71A00C79EBE /* Sources */,
 				1839EE811561F71A00C79EBE /* Frameworks */,
 				1839EE821561F71A00C79EBE /* Resources */,
+				1871EF2615656D8300036D2F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -318,10 +346,27 @@
 			files = (
 				1839EE931561F71A00C79EBE /* InfoPlist.strings in Resources */,
 				18CA69071561FA6000CD84B1 /* ZTViewController.xib in Resources */,
+				18BC272B15667E8100EC9311 /* photo.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1871EF2615656D8300036D2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Developer/xcode-crack/gen_entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1839EE801561F71A00C79EBE /* Sources */ = {
@@ -331,7 +376,6 @@
 				1839EE951561F71A00C79EBE /* main.m in Sources */,
 				18CA690C1561FA7100CD84B1 /* ZTAppDelegate.m in Sources */,
 				18CA690D1561FA7100CD84B1 /* ZTViewController.m in Sources */,
-				18C3B6B61562079D00049434 /* testCoreData.xcdatamodel in Sources */,
 				A4A21789156296270079D896 /* Category.m in Sources */,
 				A4A2178A156296270079D896 /* Category+Search.m in Sources */,
 				A4A2178B156296270079D896 /* CategoryImage.m in Sources */,
@@ -357,6 +401,9 @@
 				A4A218041562980E0079D896 /* AFXMLRequestOperation.m in Sources */,
 				A4A218051562980E0079D896 /* SDURLCache.m in Sources */,
 				A4A218061562980E0079D896 /* UIImageView+AFNetworking.m in Sources */,
+				181334791562B0F00044DD1A /* MainTitleView.m in Sources */,
+				18BC272F1566B89600EC9311 /* CellView.m in Sources */,
+				18C06AA6156A8921003C91AE /* RecipePageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +471,8 @@
 		1839EEA31561F71A00C79EBE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DianCanHD/DianCanHD-Prefix.pch";
 				INFOPLIST_FILE = "DianCanHD/DianCanHD-Info.plist";
@@ -435,6 +484,8 @@
 		1839EEA41561F71A00C79EBE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DianCanHD/DianCanHD-Prefix.pch";
 				INFOPLIST_FILE = "DianCanHD/DianCanHD-Info.plist";
