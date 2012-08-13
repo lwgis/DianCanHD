@@ -10,7 +10,7 @@
 
 @class UIImage;
 
-#define REQUEST_HOST @"HTTP://192.168.1.100:8080"
+#define REQUEST_HOST @"HTTP://192.168.1.102:8080"
 
 #define ALL_CATEGORY_URL [NSString stringWithFormat:@"%@/ChihuoService/rest/categories/",REQUEST_HOST]
 #define RECIPE_BY_CATEGORY_URL(__ID__) [NSString stringWithFormat:@"%@/ChihuoService/rest/categories/%i",REQUEST_HOST, __ID__]
@@ -24,7 +24,7 @@
 
 #define ALL_DOMAIN_URL [NSString stringWithFormat:@"%@/ChihuoService/rest/all/",REQUEST_HOST]
 
-#define IMAGE_URL(__URL__) [NSString stringWithFormat:@"http://192.168.1.100:8080/ChihuoService/MenuImages/%@", __URL__]
+#define IMAGE_URL(__URL__) [NSString stringWithFormat:@"http://192.168.1.102:8080/ChihuoService/MenuImages/%@", __URL__]
 
 
         

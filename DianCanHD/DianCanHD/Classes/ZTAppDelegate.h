@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class ZTViewController;
+@class ZTMainViewController;
 
 @interface ZTAppDelegate : UIResponder <UIApplicationDelegate>
 

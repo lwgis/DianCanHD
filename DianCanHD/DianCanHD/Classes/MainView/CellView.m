@@ -14,16 +14,21 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor=[UIColor whiteColor];
-        UIImageView *iv=[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
-        [self addSubview:iv];
-        [self setImageView:iv];
-        [iv release];
+        self.backgroundColor=[UIColor whiteColor]; 
     }
     return self;
 }
 -(void)setImage:(UIImage *)image{
+    if (self.imageView==nil) {
+        UIImageView *iv=[[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+        [self addSubview:iv];
+        [self setImageView:iv];     
+        [iv release];
+    }
     [self.imageView setImage:image];
+}
+-(void)releaseImage{
+    [self.imageView setImage:nil];
 }
 
 /*

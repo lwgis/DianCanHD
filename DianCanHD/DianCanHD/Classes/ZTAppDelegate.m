@@ -9,7 +9,7 @@
 #import "ZTAppDelegate.h"
 
 #import "ZTViewController.h"
-
+#import "ZTMainViewController.h"
 #import "RestEngine.h"
 
 @implementation ZTAppDelegate

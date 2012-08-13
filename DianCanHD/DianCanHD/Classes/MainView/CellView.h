@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CellView : UIView
--(void)setImage:(UIImage *)image;
 @property(nonatomic,assign)UIImageView *imageView;
+-(void)setImage:(UIImage *)image;
+-(void)releaseImage;
 @end
